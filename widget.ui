@@ -23,7 +23,7 @@
     </rect>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_8">
+  <widget class="QPushButton" name="pbReset">
    <property name="geometry">
     <rect>
      <x>350</x>
@@ -36,7 +36,7 @@
     <string>Reset</string>
    </property>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>200</x>
@@ -47,7 +47,7 @@
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout">
     <item>
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="pb10">
       <property name="text">
        <string>10</string>
       </property>
@@ -76,7 +76,7 @@
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>260</x>
@@ -87,7 +87,7 @@
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout_2">
     <item>
-     <widget class="QPushButton" name="pushButton_5">
+     <widget class="QPushButton" name="pbCoffee">
       <property name="text">
        <string>Coffee(100)</string>
       </property>

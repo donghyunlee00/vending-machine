@@ -14,7 +14,7 @@ Widget::~Widget()
     delete ui;
 }
 
-void Widget::on_pushButton_clicked()
+void Widget::on_pb10_clicked()
 {
     calc(10);
 }
@@ -70,7 +70,7 @@ void Widget::calc(int num)
 
 void Widget::setButtonStatus()
 {
-    money >= 100 ? ui->pushButton_5->setEnabled(true) : ui->pushButton_5->setDisabled(true);
-    money >= 150 ? ui->pushButton_6->setEnabled(true) : ui->pushButton_6->setDisabled(true);
-    money >= 200 ? ui->pushButton_7->setEnabled(true) : ui->pushButton_7->setDisabled(true);
+    ui->pushButton_5->setEnabled(money >= 100);
+    ui->pushButton_6->setEnabled(money >= 150);
+    ui->pushButton_7->setEnabled(money >= 200);
 }
